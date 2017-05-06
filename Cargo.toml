@@ -1,0 +1,9 @@
+[package]
+name = "buildtimes"
+version = "0.1.0"
+authors = ["Maik Klein <maikklein@googlemail.com>"]
+
+[dependencies]
+
+
+gltf = "0.4.0"
