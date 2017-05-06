@@ -2,7 +2,7 @@
 name = "buildtimes"
 version = "0.1.0"
 dependencies = [
- "gltf 0.4.0 (registry+https://github.com/rust-lang/crates.io-index)",
+ "gltf 0.4.0 (git+https://github.com/MaikKlein/gltf.git)",
 ]
 
 [[package]]
@@ -13,7 +13,7 @@ source = "registry+https://github.com/rust-lang/crates.io-index"
 [[package]]
 name = "gltf"
 version = "0.4.0"
-source = "registry+https://github.com/rust-lang/crates.io-index"
+source = "git+https://github.com/MaikKlein/gltf.git#41e5c6bc1ed9a585a74b49e7f4c10a007c260d7f"
 dependencies = [
  "serde 0.9.15 (registry+https://github.com/rust-lang/crates.io-index)",
  "serde_derive 0.9.15 (registry+https://github.com/rust-lang/crates.io-index)",
@@ -94,7 +94,7 @@ source = "registry+https://github.com/rust-lang/crates.io-index"
 
 [metadata]
 "checksum dtoa 0.4.1 (registry+https://github.com/rust-lang/crates.io-index)" = "80c8b71fd71146990a9742fc06dcbbde19161a267e0ad4e572c35162f4578c90"
-"checksum gltf 0.4.0 (registry+https://github.com/rust-lang/crates.io-index)" = "e15e5ffca8e1fa528ab1ab0c198b7cf25f1750521f7812408ab1152244ddfa3e"
+"checksum gltf 0.4.0 (git+https://github.com/MaikKlein/gltf.git)" = "<none>"
 "checksum itoa 0.3.1 (registry+https://github.com/rust-lang/crates.io-index)" = "eb2f404fbc66fd9aac13e998248505e7ecb2ad8e44ab6388684c5fb11c6c251c"
 "checksum num-traits 0.1.37 (registry+https://github.com/rust-lang/crates.io-index)" = "e1cbfa3781f3fe73dc05321bed52a06d2d491eaa764c52335cf4399f046ece99"
 "checksum quote 0.3.15 (registry+https://github.com/rust-lang/crates.io-index)" = "7a6e920b65c65f10b2ae65c831a81a073a89edd28c7cce89475bff467ab4167a"
